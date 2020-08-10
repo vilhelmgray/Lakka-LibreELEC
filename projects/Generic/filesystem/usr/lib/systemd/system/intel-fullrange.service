@@ -1,6 +1,6 @@
 [Unit]
 Description=intel switch to full range
-Before=kodi.service
+Before=retroarch.service
 After=graphical.target
 
 [Service]
@@ -11,4 +11,4 @@ StandardError=null
 RemainAfterExit=yes
 
 [Install]
-WantedBy=kodi.target
+WantedBy=retroarch.target
