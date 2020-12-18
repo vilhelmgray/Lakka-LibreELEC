@@ -25,6 +25,9 @@
   # Kernel target
     KERNEL_TARGET="Image"
 
+  # Kernel to use
+    LINUX="mainline-5.9"
+
   # U-Boot firmware package(s) to use
     UBOOT_FIRMWARE="atf"
 
